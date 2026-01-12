@@ -43,11 +43,11 @@ const route = [
         children: [
             {
                 text: "CRUD",
-                link: "http://o-tb.gitee.io/code-tool/#/crud"
+                link: "https://otb-china.github.io/tool-page/#/crud"
             },
             {
                 text: "表单生成",
-                link: "http://o-tb.gitee.io/code-tool/#/form"
+                link: "https://otb-china.github.io/tool-page/#/form"
             },
         ]
     },
@@ -56,7 +56,7 @@ const route = [
         children: [
             {
                 text: "知鱼(2022-10 静态)",
-                link: "http://o-tb.gitee.io/zhiyu/#/home"
+                link: "https://otb-china.github.io/zhiyu/#/home"
             }
         ]
     }
