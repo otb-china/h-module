@@ -1,0 +1,15 @@
+name: 部署dist到GitHub Pages
+on:
+  push:
+    branches: [ master ] # 你的主分支名（和仓库一致）
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+      - name: 部署dist文件夹到Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # 指定要部署的文件夹（就是你的dist）
+          branch: gh-pages # 自动创建gh-pages分支存部署文件
