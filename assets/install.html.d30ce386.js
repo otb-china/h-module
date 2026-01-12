@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7a4fcacc","path":"/views/install/install.html","title":"\u5B89\u88C5 npm","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1768203946000,"contributors":[{"name":"\u534E\u7956\u5168","email":"huazuquan@163.com","commits":1}]},"filePathRelative":"views/install/install.md"}');export{t as data};
